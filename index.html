@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <title>GameTrack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GameTrack</h1>
+
+        <form id="form-jogo">
+            <input type="hidden" id="jogo-id">
+            <input type="text" id="titulo" placeholder="Título" required>
+            <input type="text" id="genero" placeholder="Género" required>
+            <input type="text" id="plataforma" placeholder="Plataforma" required>
+            <input type="number" id="nota" placeholder="Nota (0-10)" min="0" max="10" required>
+            <select id="status" required>
+                <option value="">Status</option>
+                <option value="Quero jogar">Quero jogar</option>
+                <option value="Jogando">Jogando</option>
+                <option value="Finalizado">Finalizado</option>
+                <option value="Abandonado">Abandonado</option>
+            </select>
+            <button type="submit">Salvar</button>
+        </form>
+
+        <div id="lista-jogos"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

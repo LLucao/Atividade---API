@@ -1,0 +1,52 @@
+{
+  "jogos": [
+    {
+      "id": "1",
+      "titulo": "Minecraft",
+      "genero": "Sandbox",
+      "plataforma": "PC",
+      "nota": 9,
+      "status": "Jogando"
+    },
+    {
+      "id": "2",
+      "titulo": "Hollow Knight",
+      "genero": "Metroidvania",
+      "plataforma": "PC",
+      "nota": 10,
+      "status": "Finalizado"
+    },
+    {
+      "id": "3",
+      "titulo": "DOOM",
+      "genero": "Bombshoot",
+      "plataforma": "Xbox",
+      "nota": 8,
+      "status": "Quero jogar"
+    },
+    {
+      "id": "4",
+      "titulo": "Emilly Want's to Play",
+      "genero": "Terror",
+      "plataforma": "PC",
+      "nota": 10,
+      "status": "Finalizado"
+    },
+    {
+      "id": "5",
+      "titulo": "FIFA 19",
+      "genero": "Esportes",
+      "plataforma": "PlayStation",
+      "nota": 6,
+      "status": "Abandonado"
+    },
+    {
+      "id": "6",
+      "titulo": "God of War",
+      "genero": "Ação",
+      "plataforma": "PlayStation",
+      "nota": 9,
+      "status": "Jogando"
+    }
+  ]
+}
